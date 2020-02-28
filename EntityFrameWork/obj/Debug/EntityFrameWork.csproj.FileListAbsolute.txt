@@ -1,0 +1,15 @@
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\bin\Debug\EntityFrameWork.exe.config
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\bin\Debug\EntityFrameWork.exe
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\bin\Debug\EntityFrameWork.pdb
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\bin\Debug\EntityFramework.dll
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\bin\Debug\EntityFramework.xml
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\obj\Debug\EntityFrameWork.csprojAssemblyReference.cache
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\obj\Debug\EntityFrameWork.Form1.resources
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\obj\Debug\EntityFrameWork.Properties.Resources.resources
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\obj\Debug\EntityFrameWork.csproj.GenerateResource.cache
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\obj\Debug\EntityFrameWork.csproj.CopyComplete
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\obj\Debug\EntityFrameWork.exe
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\obj\Debug\EntityFrameWork.pdb
+C:\Users\hoang\source\repos\EntityFrameWork\EntityFrameWork\obj\Debug\EntityFrameWork.Form2.resources

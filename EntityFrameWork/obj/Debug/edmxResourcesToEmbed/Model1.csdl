@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="class" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="sinhviens" Relationship="Self.FK__sinhvien__IDclas__286302EC" FromRole="Lop" ToRole="sinhvien" />
+  </EntityType>
+  <EntityType Name="sinhvien">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="student" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IDclass" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Lop" Relationship="Self.FK__sinhvien__IDclas__286302EC" FromRole="sinhvien" ToRole="Lop" />
+  </EntityType>
+  <Association Name="FK__sinhvien__IDclas__286302EC">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="1" />
+    <End Role="sinhvien" Type="Self.sinhvien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="sinhvien">
+        <PropertyRef Name="IDclass" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StudentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Lops" EntityType="Self.Lop" />
+    <EntitySet Name="sinhviens" EntityType="Self.sinhvien" />
+    <AssociationSet Name="FK__sinhvien__IDclas__286302EC" Association="Self.FK__sinhvien__IDclas__286302EC">
+      <End Role="Lop" EntitySet="Lops" />
+      <End Role="sinhvien" EntitySet="sinhviens" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
